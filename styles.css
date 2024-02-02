@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.section {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 10px; /* Adjust as needed for horizontal spacing */
+}
+
+.section-title {
+    text-align: right;
+    font-size: 18px;
+    color: #333;
+}
+
+.dummy-text {
+    margin-top: 10px; /* Adjust as needed for vertical spacing */
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+    .section-title {
+        text-align: center; /* Center align on mobile */
+    }
+}
